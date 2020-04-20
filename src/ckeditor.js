@@ -70,6 +70,7 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'link',
+			'underline',
 			'CodeBlock',
 			'bulletedList',
 			'numberedList',
