@@ -31,6 +31,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -62,7 +63,8 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	CodeBlock,
 	TextTransformation,
-	Font
+	Font,
+	Alignment
 ];
 
 // Editor configuration.
