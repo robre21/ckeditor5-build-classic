@@ -61,7 +61,9 @@
     "stylelint-config-ckeditor5": "^1.0.3",
     "terser-webpack-plugin": "^2.3.6",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "ckeditor5-button": "0.0.5",
+    "ckeditor5-countdown": "0.0.3"
   },
   "engines": {
     "node": ">=8.0.0",
@@ -97,5 +99,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "dependencies": {}
 }
