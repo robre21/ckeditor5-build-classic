@@ -34,6 +34,8 @@ import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
+import Button from 'ckeditor5-button';
+import Countdown from 'ckeditor5-countdown';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -66,7 +68,9 @@ ClassicEditor.builtinPlugins = [
 	CodeBlock,
 	TextTransformation,
 	Font,
-	Alignment
+	Alignment,
+	Button,
+	Countdown
 ];
 
 // Editor configuration.
@@ -91,7 +95,9 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'button',
+			'countdown'
 		]
 	},
 	image: {
