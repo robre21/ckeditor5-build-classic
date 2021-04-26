@@ -36,6 +36,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import Button from 'ckeditor5-button';
 import Countdown from 'ckeditor5-countdown';
+import Anchor from '@ckeditor/ckeditor5-anchor/src/anchor';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -70,7 +71,8 @@ ClassicEditor.builtinPlugins = [
 	Font,
 	Alignment,
 	Button,
-	Countdown
+	Countdown,
+	Anchor
 ];
 
 // Editor configuration.
@@ -97,7 +99,8 @@ ClassicEditor.defaultConfig = {
 			'undo',
 			'redo',
 			'button',
-			'countdown'
+			'countdown',
+			'anchor'
 		]
 	},
 	image: {
